@@ -1,0 +1,75 @@
+/*elements de base*/
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+#corpsdepage
+{
+    margin:50px;
+}
+a{
+    text-decoration: none;
+}
+strong{
+    font-weight: bolder;
+}
+/*formules types*/
+.displayFlex
+{
+    display: flex;
+    align-items: center;
+}
+.displayFlexCenter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.displayFlexSpaceBetween
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.displaySpaceAround
+{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+}
+.displayRow
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*menu En tête*/
+.logoDimensions
+{
+    width:100px;
+    height:auto;
+
+}
+.menuTete
+{    
+    margin-left: 600px;
+    
+}
+.margeLien
+{
+    margin-left:50px;
+}
+/*Elements recherche et filtres*/
+.dimensionRecherche
+{
+    width:420px;
+    height:50px;
+
+}
+.cardreLogoRecherche
+{
+    background-color: #f2f2f2;
+    border-radius:10px 0px 0px 10px;
+    width: 50px;
+    height:50px;
+}

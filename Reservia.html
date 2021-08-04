@@ -5,22 +5,30 @@
         <title> reservia_main</title>
         <link rel="stylesheet" href="style.css">
         <style>@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');</style>
+        <script src="https://kit.fontawesome.com/cd10168169.js" crossorigin="anonymous"></script>
     </head>
     
     <body>
-        <div id="corpsdepage">
+        <div id=corpsdepage>
           <header>
-              <nav>
-                <ul>
-                      <li><a href='#herbergement'>hebergement</a>  
-                      <li><a href="#activités">activités</a> 
-                      <li><a href="s'inscrire.html">S'inscrire</a>
-                  </ul>
-              </nav>
-                      <p id="intro"> <strong> découvrez votre hébergement pour des vacances de rêve </strong><br>
+              <div class="displayFlexSpaceBetween">
+              <img class=" logoDimensions" src="images/logo/Reservia@3x.png" alt="logo reservia">
+            
+              
+                    <div  class="menuTete displayFlexSpaceBetween">
+                       <div class="margeLien"><a href='#herbergement'>hebergement</a> </div>
+                       <div class="margeLien"><a href="#activités">activités</a>  </div>
+                       <div class="margeLien"><a href="s'inscrire.html">S'inscrire</a></div>
+                    </div>
+                
+            </div>
+                      <p> <strong> découvrez votre hébergement pour des vacances de rêve </strong><br>
                         en plein centre ville ou en pleine nature </p>
-                        <form method="POST">
-                            <input type="search" name="recherche" id="recherche"/>
+                        <div class=dimensionsRecherche></div>
+                        <form method="POST" class="displayFlex">
+                           <div class="displayFlexCenter"> <i class="fas fa-map-marker-alt cardreLogoRecherche displayFlexCenter"></i></div>
+                           <div class="searchBarre"><input type="search" name="recherche" id="recherche"/></div>
+                            <div><button>Recheche</button></div>
                         </form>
                         <form method="POST" id="options">
                             <p> option </p>
@@ -69,7 +77,7 @@
                         </a>
                     </div>
             </section>
-            <aside id="pop">
+            <aside>
                     <h2> Les plus populaires </h2>
                     <div>
                         <a href="#">
